@@ -2,6 +2,35 @@ body  {
   font-family: 'Spectral';
   font-size: 19px;
   background-image:url("https://wallimpex.com/data/out/318/vegetables-backgrounds-6956794.jpg");
+  background-size:1800px;
   background-repeat: no-repeat;
   background-position: middle;
+}
+
+h1 {
+  position: absolute;
+  top: 57px;
+  left: 405px;
+}
+
+h6 {
+  position: absolute;
+  top: 120px;
+  left: 455px;
+  color: black;
+  border-color: black;
+  border-style: solid;
+
+}
+
+.selections1 {
+  position: absolute;
+  left: 570px;
+  top: 355px;
+}
+
+.selections2 {
+  position: absolute;
+  left: 800px;
+  top: 220px;
 }

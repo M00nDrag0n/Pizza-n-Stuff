@@ -9,10 +9,10 @@
  <body>
 
    <h1>CHOOSE YOUR PIZZA</h1>
-   <h6> ctrl + click (or alt + click) for multiple options</h6><br>
+   <h6> <strong>ctrl + click (or alt + click) for multiple options</strong></h6><br>
 
    <form action= "">
-
+    <div class = "selections1"
      <fieldset>
      <label>
       <strong>CHOOSE YOUR SIZE.</strong>
@@ -25,13 +25,13 @@
       <option value = "Large">Large</option>
       <option value = "X-Large">X-Large</option>
       <option value = "SUPERSIZE">SUPERSIZE</option>
-    </select>
-  </fieldset><br>
+     </select>
+   </fieldset><br>
 
      <fieldset>
      <label>
       <strong>CHOOSE YOUR CRUST.</strong>
-    </label><br>
+     </label><br>
      <select id = "selCrust"
        multiple = "multiple"
        size = 5>
@@ -42,13 +42,13 @@
       <option value = "Hand-Tossed Crust">Hand-Tossed Crust</option>
       <option value = "Cauliflower Crust">Cauliflower Crust</option>
     </select>
-  </fieldset><br>
+    </fieldset>
 
-     <fieldset>
-     <label>
+    <fieldset>
+    <label>
       <strong>CHOOSE YOUR SAUCE.<strong>
     </label><br>
-     <select id = "selSauce"
+    <select id = "selSauce"
        multiple = "multiple"
        size = 4>
 
@@ -57,13 +57,15 @@
       <option value = "Tomato (Vegetarian)">Tomato (Vegetarian)</option>
       <option value = "Tomato (Meat)">Tomato (Meat)</option>
     </select>
-  </fieldset><br>
+   </fieldset><br>
+  </div>
 
+  <div class = "selections2"
     <label>
-      <strong>CHOOSE YOUR TOPPINGS.</strong>
-    </label>
-    <fieldset>
-    <select id = "selTopping"
+      <strong>CHOOSE YOUR <br> TOPPINGS.</strong>
+   </label>
+   <fieldset>
+   <select id = "selTopping"
      multiple = "multiple"
      size = 25>
      <option value = "Feta">Feta</option>
@@ -89,9 +91,10 @@
      <option value = "Basil">Basil</option>
      <option value = "Broccoli">Broccoli</option>
      <option value = "Bell Peppers">Bell Peppers</option>
-     <option value = "Jalapenos">Jalapeños</option>
+     <option value = "Jalapenos">Jalapenos</option>
      <option value = "Onions">Onions</option>
    </select>
+ </div>
 
 
 

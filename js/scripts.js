@@ -2,7 +2,7 @@ $(document).ready(function() {
 function getSelectedOptions(sel, fn) {
     var opts = [], opt;
 
-    for (var i=0, len=sel.options.length; i<len; i++) {
+    for (var i=0; len=sel.options.length; i<len; i++) {
         opt = sel.options[i];
 
         if (opt.selected) {
@@ -12,6 +12,7 @@ function getSelectedOptions(sel, fn) {
             fn(opt);
           }
         }
+
 
     }
 

@@ -7,26 +7,25 @@ body  {
   background-position: middle;
 }
 
-h1 {
+h2 {
   position: absolute;
-  top: 57px;
-  left: 405px;
+  top: 220px;
+  left: 475px;
 }
 
 h6 {
   position: absolute;
-  top: 120px;
-  left: 455px;
-  color: black;
-  border-color: black;
-  border-style: solid;
+  top: 342px;
+  left: 480px;
+  color: white;
+
 
 }
 
 .selections1 {
   position: absolute;
   left: 570px;
-  top: 355px;
+  top: 358px;
 }
 
 .selections2 {
@@ -34,3 +33,6 @@ h6 {
   left: 800px;
   top: 220px;
 }
+
+
+};

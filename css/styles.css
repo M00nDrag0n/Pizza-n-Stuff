@@ -34,5 +34,15 @@ h6 {
   top: 220px;
 }
 
+.Total {
+  position: absolute;
+  top: 870px;
+  left: 650px;
+  border-style: solid;
+  border-color: black;
+
+
+}
+
 
 };

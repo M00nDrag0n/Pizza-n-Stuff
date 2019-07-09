@@ -13,7 +13,10 @@ function getSelectedOptions(sel, fn) {
           }
         }
 
+ function total(); {
 
+   
+ }
     }
 
 }
